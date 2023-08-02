@@ -1,0 +1,18 @@
+// 定义一个样式列表，每一组子项就是一个主题,
+// 之后使用 @mixin 的方式来生成多组主题
+$themes: (
+  blue: (primary-bg: #1996E2,
+    primary-color: #FFF,
+    menu-bg: #41C4F8,
+    menu-text-color: #FFF,
+    normal-size: 12px,
+    big-size: 20px,
+  ),
+  black: (primary-bg: #000,
+    primary-color: #FFF,
+    menu-bg: #343346,
+    menu-text-color: #FFF,
+    normal-size: 20px,
+    big-size: 80px,
+  ),
+  )

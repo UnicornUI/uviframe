@@ -1,0 +1,24 @@
+// 获取色阶自定义的网站
+// https://ant-design.gitee.io/docs/spec/colors-cn
+
+[data-theme='blue'] {
+  // 以 #3c62cd 为基准色调配置的颜色
+  --theme-color-1: #f0f6ff;
+  --theme-color-2: #edf4ff;
+  --theme-color-3: #bbcff2;
+  --theme-color-4: #8caae6;
+  --theme-color-5: #6285d9;
+  --theme-color-6: #3c62cd;
+  --theme-color-7: #2845a6;
+  --theme-color-8: #182d80;
+  --theme-color-9: #0c1959;
+  --theme-color-10: #070d33;
+
+  --primary-bg: var(--theme-color-6);
+  --primary-color: var(--theme-color-1);
+
+  /* 如果用到了第三方的组件，则使用对应的组件变量赋值来覆盖组件的变量 */
+  --van-button-primary-background: #F00;
+  --van-button-border-width: 20px;
+  --van-button-primary-border-color: #e200ee;
+}
