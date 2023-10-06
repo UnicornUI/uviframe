@@ -39,7 +39,6 @@ onMounted(async () => {
   .title {
     margin: 30px;
   }
-
 }
 </style>
 

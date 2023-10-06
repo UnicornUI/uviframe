@@ -15,7 +15,6 @@ import { useRoute } from "vue-router";
 interface KeepAliveRouterViewState {
   excludeNames: string[];
 }
-
 /**
 > exclude 中需要以数组`[]`的形式或者 "name1 | name2 | name3" 形式
 > 3.2.34+ 版本在 setup 语法使用的单文件组件会自动根据文件名生成对应的组件名

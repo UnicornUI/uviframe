@@ -3,6 +3,7 @@
 </template>
 
 <script lang="ts" setup>
+
 interface IconProps {
   icon: string,
 }
